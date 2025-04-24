@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narges Movie Theater</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+</head>
+<body>
+    <section>
+        <div class="page-wrapper">
+            <h1 class="align">Narcissus Movie Theater🎭</h1>
+            <p class="marquee"> Welcome To My Movie Theater🍿🎬🎭 </p>
+            <div class="video-container">
+                <div class="blink">
+                    <video id="myVideo"  controls>
+                        <source src="media/video.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            
+                <div class="buttons">
+                    <button onclick="playAgain()">▶ Play Again</button>
+                    <button onclick="rateMovie()">⭐ Rate Movie</button>
+                </div>
+                <div id="ratingArea"></div>
+            </div>   
+        </div>  
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
